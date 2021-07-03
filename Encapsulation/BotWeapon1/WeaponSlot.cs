@@ -9,7 +9,6 @@ namespace Napilnik1_1
     public class WeaponSlot
     {
         public Weapon weaponInSlot;
-        public bool weaponEqualSlotWeapon;
 
         public WeaponSlot(Weapon weapon)
         {
