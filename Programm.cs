@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace Napilnik1_1
             var weapon = new Weapon(10,10);
             var bot = new Bot(weapon);
             var player = new Player(100);
-            bot.FireFromSlot(player, bot.weaponSlot);
+            bot.FireFromSlot(player, bot.WeaponSlot);
             Debug.Log(player._health.ToString());
         }
     }
