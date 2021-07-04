@@ -7,7 +7,7 @@ namespace Napilnik1_1
 {
     public class Player
     {
-        public int _health;
+        private int _health;
 
         public Player(int health)
         {
