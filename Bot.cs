@@ -7,7 +7,7 @@ namespace Napilnik1_1
 {
     public class Bot : MonoBehaviour
     {
-        public WeaponSlot weaponSlot;
+        private WeaponSlot weaponSlot;
 
         public WeaponSlot WeaponSlot
         {
