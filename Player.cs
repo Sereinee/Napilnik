@@ -10,7 +10,8 @@ namespace Napilnik1_1
         private int _health;
 
         public Player(int health)
-        {
+        {            
+            if(health > 0)
             _health = health;
         }
 
