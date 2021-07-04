@@ -17,7 +17,7 @@ namespace Napilnik1_1
 
         public Bot(Weapon weapon)
         {
-            weaponSlot = new WeaponSlot(weapon);
+            WeaponSlot = new WeaponSlot(weapon);
         }
 
         public void FireFromSlot(Player player, WeaponSlot weaponSlot)
