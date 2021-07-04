@@ -23,8 +23,6 @@ namespace Napilnik1_1
                 player.TakeDamage(_damage);
                 _bullets -= 1;
             }
-            else
-                return;
         }
     }
 }
